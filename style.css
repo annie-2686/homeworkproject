@@ -120,11 +120,23 @@ p {
 
 @media (max-width: 575.98px) {
   .titletext,
+  h2 {
+    font-size: 32px;
+  }
+
+  h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+
+  .titletext,
   .textinfo {
     text-align: center;
   }
 
   .primary-link {
-    padding: 20px 90px;
+    display: block;
+    text-align: center;
+    margin-left: 15px;
   }
 }
