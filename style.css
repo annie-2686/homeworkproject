@@ -117,3 +117,14 @@ p {
   text-transform: capitalize;
   margin-left: -5px;
 }
+
+@media (max-width: 575.98px) {
+  .titletext,
+  .textinfo {
+    text-align: center;
+  }
+
+  .primary-link {
+    padding: 20px 90px;
+  }
+}
